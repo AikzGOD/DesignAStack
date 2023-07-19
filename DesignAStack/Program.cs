@@ -12,11 +12,15 @@ namespace DesignAStack
         {
             var stack = new Stack();
 
-            stack.Pop();
+            //See if throws error number1 :
+            //stack.Pop();
 
             stack.Push(1);
             stack.Push(2);
             stack.Push(3);
+
+            //See if throws error number2 : 
+            //stack.Push(null);
 
             Console.WriteLine(stack.Pop());
             Console.WriteLine(stack.Pop());
